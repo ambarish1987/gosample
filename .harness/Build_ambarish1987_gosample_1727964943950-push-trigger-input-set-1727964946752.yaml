@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ambarish1987_gosample_1727964943950-push-trigger-input-set
+  identifier: Build_ambarish1987_gosample_1727964943950pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ambarish1987_gosample_1727964943950
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
